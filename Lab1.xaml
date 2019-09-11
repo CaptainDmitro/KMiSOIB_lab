@@ -1,0 +1,28 @@
+﻿<Window x:Class="KMiSOIB_lab.Lab1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KMiSOIB_lab"
+        mc:Ignorable="d"
+        Title="Лабораторная работа №1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Задание 1:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сообщение:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Message1TB" HorizontalAlignment="Left" Height="23" Margin="87,44,0,0" TextWrapping="Wrap" Text="привет как дела" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Шифровка:" HorizontalAlignment="Left" Margin="187,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Encrypted1TB" HorizontalAlignment="Left" Height="23" Margin="259,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Расифровка:" HorizontalAlignment="Left" Margin="359,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Decrypted1TB" HorizontalAlignment="Left" Height="23" Margin="438,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="Proceed1" Content="Выполнить" HorizontalAlignment="Left" Margin="559,44,0,0" VerticalAlignment="Top" Width="76" Height="23" Click="Proceed1_Click"/>
+        <Label Content="Задание 2:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сообщение:" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Message2TB" HorizontalAlignment="Left" Height="23" Margin="87,105,0,0" TextWrapping="Wrap" Text="привет как дела" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Шифровка:" HorizontalAlignment="Left" Margin="187,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Encrypted2TB" HorizontalAlignment="Left" Height="23" Margin="259,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Расифровка:" HorizontalAlignment="Left" Margin="359,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Decrypted2TB" HorizontalAlignment="Left" Height="23" Margin="438,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="Proceed2" Content="Выполнить" HorizontalAlignment="Left" Margin="559,105,0,0" VerticalAlignment="Top" Width="76" Height="23" Click="Proceed2_Click"/>
+
+    </Grid>
+</Window>
