@@ -8,12 +8,12 @@
         Title="КМиСОИБ - Лабораторные работы" Height="298.5" Width="200">
     <Grid>
         <Button x:Name="lb1_Button" Content="Лабораторная работа №1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb1_Button_Click"/>
-        <Button x:Name="lb2_Button" Content="Лабораторная работа №2" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
-        <Button x:Name="lb3_Button" Content="Лабораторная работа №3" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
-        <Button x:Name="lb4_Button" Content="Лабораторная работа №4" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
-        <Button x:Name="lb5_Button" Content="Лабораторная работа №5" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
-        <Button x:Name="lb6_Button" Content="Лабораторная работа №6" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
-        <Button x:Name="lb7_Button" Content="Лабораторная работа №7" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="168" Height="30"/>
+        <Button x:Name="lb2_Button" Content="Лабораторная работа №2" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb2_Button_Click"/>
+        <Button x:Name="lb3_Button" Content="Лабораторная работа №3" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb3_Button_Click"/>
+        <Button x:Name="lb4_Button" Content="Лабораторная работа №4" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb4_Button_Click"/>
+        <Button x:Name="lb5_Button" Content="Лабораторная работа №5" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb5_Button_Click"/>
+        <Button x:Name="lb6_Button" Content="Лабораторная работа №6" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb6_Button_Click"/>
+        <Button x:Name="lb7_Button" Content="Лабораторная работа №7" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="168" Height="30" Click="Lb7_Button_Click"/>
 
     </Grid>
 </Window>

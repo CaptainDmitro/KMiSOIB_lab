@@ -25,9 +25,12 @@ namespace KMiSOIB_lab
             InitializeComponent();
         }
 
-        private void Lb1_Button_Click(object sender, RoutedEventArgs e)
-        {
-            new Lab1().Show();
-        }
+        private void Lb1_Button_Click(object sender, RoutedEventArgs e) { new Lab1().Show(); }
+        private void Lb2_Button_Click(object sender, RoutedEventArgs e) { new Lab2().Show(); }
+        private void Lb3_Button_Click(object sender, RoutedEventArgs e) { new Lab3().Show(); }
+        private void Lb4_Button_Click(object sender, RoutedEventArgs e) { new Lab4().Show(); }
+        private void Lb5_Button_Click(object sender, RoutedEventArgs e) { new Lab5().Show(); }
+        private void Lb6_Button_Click(object sender, RoutedEventArgs e) { new Lab6().Show(); }
+        private void Lb7_Button_Click(object sender, RoutedEventArgs e) { new Lab7().Show(); }
     }
 }
